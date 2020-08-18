@@ -1,5 +1,5 @@
 {
-  "name": "DiscordBot",
+  "name": "discordbot",
   "description": "testing",
   "version": "0.0.0",
   "main": "bot.js",
@@ -7,8 +7,13 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "^12.0.2",
-    "jsonfile": "^3.0.0",
-    "node-rest-client": "^3.1.0"
+    "discord.js": "11.6.3",
+    "node-rest-client": "^3.1.0",
+    "pyke": "3.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1"
   }
+
 }
